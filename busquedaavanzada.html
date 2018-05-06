@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
-  <title>Agenda</title>
+  <title>Búsqueda avanzada</title>
   <link rel="icon" href="../../Desktop/arreglar portatil/taller informatico - copia.jpg"> </head>
 
 <body>
@@ -15,7 +15,7 @@
       <a class="navbar-brand px-5" href="index.html">
         <b>AGENDA CULTURAL
           <br> </b>
-        <img class="img-fluid d-block rounded mx-4" src="./idioma2.png"> </a>
+        <img class="img-fluid d-block rounded mx-4" src="idioma2.png"> </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -168,64 +168,70 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="">Próximos eventos</h1>
+          <h1 class="">Búsqueda avanzada</h1>
         </div>
       </div>
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-8">
-          <a href="eventoespecifico.html"> </a>
-          <p class="lead p-2">
-            <a href="eventoespecifico.html">Feria del libro. </a>
-            <br> </p>
-          <p>La Feria del Libro de Granada vuelve a poner en marcha el ciclo de paseos literarios, diferentes visitas guiadas en las que se muestran diferentes rincones, edificios, locales o calles de la ciudad que han formado parte del imaginario de autores
-            de todo tipo de género y han sido inmortalizados en sus obras</p>
-          <div class="blockquote">
-            <p class="mb-0">Fecha: 27/4/2018
-              <br>Lugar: Plaza Gracia
-              <br> </p>
-          </div>
-          <a href="eventoespecifico.html">
-            <p class="lead p-2">Ciudad y turismo: sedentarismo urbano frente a nuevos nomadismos </p>
-          </a>
-          <p>“Ciudad y turismo: sedentarismo urbano frente a nuevos nomadismos” es el título de la conferencia que impartirá José Antonio González Alcantud (catedrático del Departamento de Antropología Social de la UGR) en el Salón de Caballeros XXIV de
-            La Madraza el lunes, 7 de mayo de 2018, a las 19.30 horas, dentro del ciclo “Pensar la ciudad”, que organiza la Cátedra de Arquitectura y Urbanismo, dirigida por el catedrático del Departamento de Construcciones Arquitectónicas de la UGR,
-            Juan Calatrava Escobar (La Madraza. Centro de Cultura Contemporánea, Vicerrectorado de Extensión Universitaria de la UGR).</p>
-          <div class="blockquote">
-            <p class="mb-0">Fecha: 04/05/2018
-              <br>Lugar: La Madraza-Centro de Cultura Contemporánea &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-              <br> </p>
-          </div>
-          <a href="eventoespecifico.html">
-            <p class="lead p-2">Las élites moriscas, antes y después de la Guerra de las Alpujarras </p>
-          </a>
-          <p>Conferencia impartida por Enrique Soria Mesa (Departamento de Historia Moderna, Contemporánea y de América de la Universidad de Córdoba), dentro del Ciclo “El principio del fin: 450 años de la rebelión de los moriscos en las Alpujarras (1568)”</p>
-          <div class="blockquote">
-            <p class="mb-0">Fecha: 9/5/2018
-              <br>Lugar: La Madraza-Centro de Cultura Contemporánea &nbsp;
-              <br> </p>
-          </div>
-          <a href="eventoespecifico.html">
-            <p class="lead p-2">Los lectores de la UGR preguntan </p>
-          </a>
-          <p>Conversación con Manuel Vilas y Quico Chirino, presentada por José Manuel Ruiz Martínez, y enmarcada en las actividades del XV Festival Internacional de Poesía de Granada.</p>
-          <div class="blockquote">
-            <p class="mb-0">Fecha: 9/5/2018
-              <br>Lugar: Biblioteca provincial de Granada </p>
-          </div>
+        <div class="col-md-6">
+          <input class="form-control mr-sm-2" type="text" placeholder="Nombre del evento">
+          <input class="form-control mr-sm-2 my-5" type="text" placeholder="Fecha del evento">
+          <p class="lead my-5">
+            <i>Lugar del evento:</i>
+          </p>
+          <img class="d-block img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDW8nO9JhT_pEjebobq9pgUF2cEp0EUb1I&amp;markers=New+York+City&amp;center=New+York+City&amp;zoom=12&amp;size=640x480&amp;sensor=false">
           <div class="col-md-12"> </div>
         </div>
-        <div class="col-md-4  ">
-          <a href="eventoespecifico.html">
-            <img class="img-fluid d-block" src="./Calendario2.png"> </a>
-          <div class="col-md-12">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <a class="btn btn-primary" href="resultadobusqueda.html">Buscar</a>
-            <a class="btn m-2 btn-info" d-inline="" fa="" fa-lg="" fa-user-circle-o="" href="busquedaavanzada.html">&nbsp;
-              <i class="fa d-inline fa-lg px-1 fa-align-right"></i> Ir a búsqueda avanzada
-              <br> </a>
-          </div>
+        <div class="col-md-6">
+          <form method="post" action="">
+            <p class="lead my-5">
+              <i>Filtros:</i>
+            </p>
+          </form>
+          <form method="post" action="">
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" value="option1" id="inlineRadio1" name="inlineRadioOptions"> Teatro </label>
+            </div>
+          </form>
+          <form method="post" action="">
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" value="option1" id="inlineRadio1" name="inlineRadioOptions"> Cine </label>
+            </div>
+          </form>
+          <form method="post" action="">
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" value="option1" id="inlineRadio1" name="inlineRadioOptions"> Música </label>
+            </div>
+          </form>
+          <form method="post" action="">
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" value="option1" id="inlineRadio1" name="inlineRadioOptions"> Cultural </label>
+            </div>
+          </form>
+          <form method="post" action="">
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" value="option1" id="inlineRadio1" name="inlineRadioOptions"> Exposición </label>
+            </div>
+          </form>
+          <form method="post" action="">
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" value="option1" id="inlineRadio1" name="inlineRadioOptions"> Patrimonio </label>
+            </div>
+          </form>
+          <form method="post" action="">
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" value="option1" id="inlineRadio1" name="inlineRadioOptions"> Otros </label>
+            </div>
+          </form>
+          <a href="resultadobusqueda.html" class="btn btn-outline-light btn-lg">¡Busca tu evento!</a>
         </div>
       </div>
     </div>

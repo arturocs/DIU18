@@ -6,114 +6,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
-  <title>Agenda</title>
+  <title>Resultados de la búsqueda</title>
   <link rel="icon" href="../../Desktop/arreglar portatil/taller informatico - copia.jpg"> </head>
 
 <body>
+  <script>
+    function favorito(){alert("¡Añadido a Favoritos!")}
+  </script>
   <nav class="navbar navbar-expand-md bg-primary navbar-dark">
     <div class="container">
-      <a class="navbar-brand px-5" href="index.html">
+      <a class="navbar-brand px-5" href="iniciadosesion.html">
         <b>AGENDA CULTURAL
           <br> </b>
-        <img class="img-fluid d-block rounded mx-4" src="./idioma2.png"> </a>
+        <img class="img-fluid d-block rounded mx-4" src="idioma2.png"> </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
         <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="perfil.html">
+              <i class="fa d-inline fa-lg fa-bookmark-o"></i>Favoritos</a>
+          </li>
           <li class="nav-item mx-5">
             <a class="nav-link" href="#">
               <i class="fa d-inline fa-lg fa-envelope-o"></i>Contacto</a>
           </li>
         </ul>
         <i class="fa d-inline fa-lg fa-user-circle-o px-1"></i>
-        <div class="btn-group" id="bu">
-          <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Inicia sesión</button>
-          <div class="dropdown-menu">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <form class="">
-                    <div class="form-group">
-                      <label>Correo electrónico</label>
-                      <input type="email" class="form-control" placeholder="Introduzca correo
-                                                                             " id="bbubu"> </div>
-                  </form>
-                </div>
-              </div>
-              <div class="form-group">
-                <label>Contraseña</label>
-                <input type="password" class="form-control" placeholder="Contraseña"> </div>
-              <a href="iniciadosesion.html">
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </a>
-            </div>
-          </div>
-        </div>
+        <a class="btn btn-primary" href="perfil.html">¡Bienvenido, Juan!</a>
+        <a class="btn px-4 btn-secondary" href="index.html">
+          <b>
+            <i>
+              <span style="font-style: normal;">¡Desconectate!</span>
+            </i>
+          </b>
+        </a>
       </div>
     </div>
-    <div class="btn-group px-4">
-      <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Registrate!</button>
-      <div class="dropdown-menu">
-        <div class="container">
-          <form class="">
-            <div class="form-group">
-              <label>Nombre</label>
-              <input type="password" class="form-control" placeholder="Introduzca nombre"> </div>
-          </form>
-          <div class="row">
-            <div class="col-md-12">
-              <form class="">
-                <div class="form-group">
-                  <label>Correo electrónico</label>
-                  <input type="email" class="form-control" placeholder="Introduzca correo"> </div>
-              </form>
-            </div>
-          </div>
-          <div class="form-group">
-            <label>Contraseña</label>
-            <input type="password" class="form-control" placeholder="Contraseña"> </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <form class="">
-                <div class="form-group">
-                  <label>Confirmar contraseña</label>
-                  <input type="password" class="form-control" placeholder="Confirmar contraseña"> </div>
-              </form>
-            </div>
-          </div>
-          <script>
-            function registrado(){alert("Registrado con exito")}
-          </script>
-          <button type="submit" class="btn btn-primary" onclick="registrado()">Submit</button>
-        </div>
-        <a href="Untitled.html"></a>
-      </div>
-      <a href="Untitled.html"> </a>
-    </div>
-    <a href="Untitled.html"> </a>
   </nav>
-  <a href="Untitled.html"> </a>
   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <a href="Untitled.html"> </a>
     <div class="container">
-      <a href="Untitled.html">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse text-center justify-content-center" id="navbar3SupportedContent">
-        <a href="Untitled.html"> </a>
         <div class="btn-group">
-          <a href="Untitled.html">
-            <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Eventos</button>
-          </a>
+          <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Eventos</button>
           <div class="dropdown-menu">
-            <a href="Untitled.html">
-              <div class="dropdown-divider"></div>
-            </a>
+            <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Música</a>
             <a class="dropdown-item" href="#">Teatro</a>
             <a class="dropdown-item" href="#">Cine</a>
@@ -149,6 +90,14 @@
             <a class="dropdown-item" href="#">Nacionales</a>
           </div>
         </div>
+        <div class="btn-group">
+          <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Perfil</button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="perfil.html">Ir a mi perfil</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="index.html">Cerrar sesion</a>
+          </div>
+        </div>
         <a class="btn btn-primary" href="#">Acerca de</a>
       </div>
     </div>
@@ -157,7 +106,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <a href="index.html">
+          <a href="iniciadosesion.html">
             <h1 class="display-1 text-center text-light border border-secondary bg-secondary text-capitalize justify-content-center d-flex" style="background-image: url('AGENDA.JPG'); background-repeat: no-repeat; background-position: center center;">
               <br>
               <br> </h1>
@@ -168,57 +117,58 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="">Próximos eventos</h1>
+          <h1 class="">Resultados de la búsqueda</h1>
         </div>
       </div>
     </div>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-8">
-          <a href="eventoespecifico.html"> </a>
-          <p class="lead p-2">
-            <a href="eventoespecifico.html">Feria del libro. </a>
-            <br> </p>
-          <p>La Feria del Libro de Granada vuelve a poner en marcha el ciclo de paseos literarios, diferentes visitas guiadas en las que se muestran diferentes rincones, edificios, locales o calles de la ciudad que han formado parte del imaginario de autores
-            de todo tipo de género y han sido inmortalizados en sus obras</p>
-          <div class="blockquote">
-            <p class="mb-0">Fecha: 27/4/2018
-              <br>Lugar: Plaza Gracia
-              <br> </p>
+          <div class="row"></div>
+          <div class="row">
+            <div class="col-md-4">
+              <a href="eventoespecifico.html">
+                <p class="lead p-2">Orquesta barroca de granada</p>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-12">
+                <button class="fa d-inline fa-lg px-1 fa-star btn m-2 btn-warning" d-inline="" fa="" fa-lg="" fa-user-circle-o="" href="#" onclick="favorito()">&nbsp;Añadir a Favoritos&nbsp; </button>
+                <br> </div>
+            </div>
+            <div class="col-md-4"></div>
           </div>
-          <a href="eventoespecifico.html">
-            <p class="lead p-2">Ciudad y turismo: sedentarismo urbano frente a nuevos nomadismos </p>
-          </a>
+          <p>La Orquesta Barroca de Granada es una agrupación musical española constituida como asociación cultural, con sede en la ciudad de Granada, dedicada a la interpretación de música barroca de autores originarios de Europa -y, especialmente, de compositores
+            andaluces- con criterios historicistas e instrumentos antiguos.</p>
+          <div class="blockquote">
+            <p class="mb-0">Fecha: 16/5/2018
+              <br>Lugar: Crucero del Hospital Real </p>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="eventoespecifico.html">
+                <p class="lead p-2">Sedentarismo urbano frente a nuevos nomadismos </p>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <div class="col-md-12 ">
+                <button class="fa d-inline fa-lg px-1 fa-star btn m-2 btn-warning" d-inline="" fa="" fa-lg="" fa-user-circle-o="" href="#" onclick="favorito()">&nbsp;Añadir a Favoritos&nbsp; </button>
+                <br> </div>
+            </div>
+          </div>
           <p>“Ciudad y turismo: sedentarismo urbano frente a nuevos nomadismos” es el título de la conferencia que impartirá José Antonio González Alcantud (catedrático del Departamento de Antropología Social de la UGR) en el Salón de Caballeros XXIV de
             La Madraza el lunes, 7 de mayo de 2018, a las 19.30 horas, dentro del ciclo “Pensar la ciudad”, que organiza la Cátedra de Arquitectura y Urbanismo, dirigida por el catedrático del Departamento de Construcciones Arquitectónicas de la UGR,
             Juan Calatrava Escobar (La Madraza. Centro de Cultura Contemporánea, Vicerrectorado de Extensión Universitaria de la UGR).</p>
           <div class="blockquote">
-            <p class="mb-0">Fecha: 04/05/2018
-              <br>Lugar: La Madraza-Centro de Cultura Contemporánea &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+            <p class="mb-0">Fecha: 4/5/2018
+              <br>Lugar: La Madraza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               <br> </p>
-          </div>
-          <a href="eventoespecifico.html">
-            <p class="lead p-2">Las élites moriscas, antes y después de la Guerra de las Alpujarras </p>
-          </a>
-          <p>Conferencia impartida por Enrique Soria Mesa (Departamento de Historia Moderna, Contemporánea y de América de la Universidad de Córdoba), dentro del Ciclo “El principio del fin: 450 años de la rebelión de los moriscos en las Alpujarras (1568)”</p>
-          <div class="blockquote">
-            <p class="mb-0">Fecha: 9/5/2018
-              <br>Lugar: La Madraza-Centro de Cultura Contemporánea &nbsp;
-              <br> </p>
-          </div>
-          <a href="eventoespecifico.html">
-            <p class="lead p-2">Los lectores de la UGR preguntan </p>
-          </a>
-          <p>Conversación con Manuel Vilas y Quico Chirino, presentada por José Manuel Ruiz Martínez, y enmarcada en las actividades del XV Festival Internacional de Poesía de Granada.</p>
-          <div class="blockquote">
-            <p class="mb-0">Fecha: 9/5/2018
-              <br>Lugar: Biblioteca provincial de Granada </p>
           </div>
           <div class="col-md-12"> </div>
         </div>
         <div class="col-md-4  ">
           <a href="eventoespecifico.html">
-            <img class="img-fluid d-block" src="./Calendario2.png"> </a>
+            <img class="img-fluid d-block" src="Calendario2.png"> </a>
           <div class="col-md-12">
             <input class="form-control mr-sm-2" type="text" placeholder="Search">
             <a class="btn btn-primary" href="resultadobusqueda.html">Buscar</a>
@@ -259,6 +209,8 @@
             <br>
             <a href="#" class="text-white">Noticia
               <br> </a>
+            <a href="#" class="text-white">Perfil
+              <br> </a>
             <a href="#" class="text-white">Acerca de...
               <br> </a>
           </ul>
@@ -286,7 +238,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
