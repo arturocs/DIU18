@@ -1,7 +1,7 @@
 
 
 ### La práctica solo funciona adecuadamente en Chrome
-#####Práctica realizada por Juan Luis Sánchez Romero y Arturo Cortés Sánchez
+####Práctica realizada por Juan Luis Sánchez Romero y Arturo Cortés Sánchez
 
 ---
 
