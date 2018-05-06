@@ -1,3 +1,10 @@
+
+
+### La práctica solo funciona adecuadamente en Chrome
+#####Práctica realizada por Juan Luis Sánchez Romero y Arturo Cortés Sánchez
+
+---
+
 # DIU18
 Prácticas Diseño Interfaces de Usuario 2017-18 (Agenda cultural)
 
@@ -20,5 +27,3 @@ Pasos:
 * Uso de patrones de diseño para componentes. 
 * Utilizar herramientas de desarrollo Web. Utilizaremos el entorno Bootstrap
 * Publicar en GitHub haciendo un FORK de este proyecto. 
-
-### La práctica solo funciona adecuadamente en Chrome
