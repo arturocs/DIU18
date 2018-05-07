@@ -2,6 +2,7 @@
 
 ### La práctica solo funciona adecuadamente en Chrome
 Práctica realizada por Juan Luis Sánchez Romero y Arturo Cortés Sánchez
+
 Enlace a versión live: https://arturocs.github.io/DIU18/index.html
 
 ---
